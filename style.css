@@ -1,1 +1,112 @@
 
+/* Configurações Gerais */
+body {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 12px; /* Tamanho da fonte solicitado */
+    line-height: 1.6; /* Aumenta o espaçamento entre linhas para melhorar a leitura */
+    background-color: #fcfaf9;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cor Predominante: Vermelho */
+header {
+    background-color: #cc2929; /* Vermelho forte e elegante */
+    color: #ffffff;
+    padding: 25px 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2.2rem; /* Títulos continuam destacados para manter a hierarquia */
+    margin: 0;
+}
+
+h2 {
+    color: #cc2929; /* Subtítulos também em vermelho */
+    border-bottom: 2px solid #ffcccc;
+    padding-bottom: 5px;
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+/* Layout do Conteúdo */
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.flex-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.card {
+    flex: 1;
+    min-width: 280px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    border-top: 4px solid #cc2929; /* Detalhe em vermelho no topo do card */
+}
+
+/* Estilização das Imagens de Coleta de Trigo */
+.imagem-trigo {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover; /* Faz a imagem se ajustar sem distorcer */
+    border-radius: 6px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Painel e Botões */
+.simulator-box {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.btn {
+    background-color: #cc2929; /* Botão vermelho */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 12px; /* Mantém a fonte 12 no botão */
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.2s;
+    margin: 10px;
+}
+
+.btn:hover {
+    background-color: #991f1f; /* Vermelho mais escuro ao passar o mouse */
+}
+
+.dashboard {
+    display: flex;
+    justify-content: space-around;
+    background: #ffcccc; /* Fundo vermelho bem claro para destaque */
+    color: #991f1f;
+    padding: 15px;
+    border-radius: 6px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.log-box {
+    margin-top: 15px;
+    padding: 10px;
+    background: #f8f9fa;
+    border-left: 4px solid #cc2929;
+    text-align: left;
+}
